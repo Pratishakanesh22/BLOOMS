@@ -1,0 +1,211 @@
+:root{
+  --base:#ffffff;
+  --attr:#ff0000;
+  
+}
+
+body {
+  font-family: "Montserrat-Bold";
+  text-align: center;
+}
+
+h1{
+  font-family: 'Island Moments', cursive;
+ 
+}
+ h2, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+  color:white ;
+}
+h3{
+  color: #7a0b30;
+}
+p {
+  color: #000000;
+  font-size: 1.5rem;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Island Moments";
+  font-weight: 100;
+  font-size: 2.5rem;
+  line-height: 0.9;
+  color: #ffffff;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/*card body*/
+
+
+
+
+/* Sections */
+
+.colored-section {
+  background-color:#7a0b30;
+  color: #fff;
+}
+
+.white-section {
+ 
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Island Moments";
+  font-size: 7.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+.nav-item {
+  padding: 0 18px;
+  color: black;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  color: black;
+  font-family: "Montserrat-Light";
+}
+a.nav-link{
+  color: black;
+}
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  font-family: "fantasy";
+  background-color:#7a0b30;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+ left: 10%;
+ position: absolute;
+  border-radius: 50%;
+  margin: 30px;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color:  #7a0b30;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #7a0b30;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color:  #7a0b30;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.price-image{
+  width: 90%;
+  border-radius: none;
+  
+}
+
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 10px;
+}
+
+
+
+.pricing-column {
+  padding: 1% 2%;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+  
+}
+
